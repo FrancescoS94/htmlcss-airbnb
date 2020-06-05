@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img1 {
+    background: url("https://cdn.pixabay.com/photo/2016/08/04/15/46/machu-picchu-1569324_1280.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+}
+
+.img2 {
+    background: url("https://cdn.pixabay.com/photo/2020/01/31/21/26/brazil-4809014_1280.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.img3 {
+    background: url("https://cdn.pixabay.com/photo/2017/10/07/11/17/pyramid-2826190_1280.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.titolo {
+    color: white;
+    position: absolute;
+    text-align: center;
+    text-shadow: 2px 2px 4px #7FFFD4;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section:hover .overlay {
+    background-color: rgba(0, 0, 0, 0);
+}
